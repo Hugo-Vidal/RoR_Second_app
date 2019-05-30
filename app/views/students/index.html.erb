@@ -16,6 +16,7 @@
       <tr>
         <td><%= student.name %></td>
         <td><%= student.age %></td>
+        <td><%= student.email %></td>
         <td><button type="button" class="btn btn-primary"><%= link_to 'Show', student %></button></td>
         <td><button type="button" class="btn btn-warning"><%= link_to 'Edit', edit_student_path(student) %></button></td>
         <td><button type="button" class="btn btn-danger"><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
